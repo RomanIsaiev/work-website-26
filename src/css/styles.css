@@ -106,10 +106,6 @@ p {
   }
 }
 
-.start-date-container {
-  margin-bottom: 20px;
-}
-
 .start-date-flex {
   display: flex;
   align-items: center;
@@ -155,7 +151,7 @@ p {
   color: #fff;
   text-align: center;
   font-family: Futura PT;
-  font-size: 43px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
