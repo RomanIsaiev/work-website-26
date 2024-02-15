@@ -160,20 +160,8 @@ p {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-}
 
-.header-special {
-  color: #ff2f9f;
-  text-align: right;
-  font-family: 'Futura PT';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-transform: uppercase;
-
-  margin-top: -10px;
-  margin-bottom: 317px;
+  margin-bottom: 337px;
 }
 
 .header-course-description {
@@ -228,7 +216,7 @@ p {
 
   animation: pulseScale 2000ms infinite;
 
-  margin-bottom: 97px;
+  margin-bottom: 20px;
 }
 
 /* timer */
@@ -365,8 +353,6 @@ p {
 .sect-one-list {
   display: flex;
   flex-direction: column;
-
-  margin-bottom: 80px;
 }
 
 .sect-one-list .one-list-item {
@@ -406,7 +392,7 @@ p {
   mask-composite: exclude;
 }
 
-.one-list-item {
+.sect-one-list .one-list-item {
   color: #fff;
   text-align: center;
   font-family: Futura PT;
@@ -416,61 +402,8 @@ p {
   line-height: 120%; /* 19.2px */
 }
 
-.sect-one-subtitle {
-  color: #c681de;
-  text-align: center;
-  font-family: 'Futura PT';
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: 120%; /* 21.6px */
-
-  max-width: 268px;
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-bottom: 30px;
-}
-
-.sect-one-subtitle span {
-  color: #c681de;
-}
-
-.sect-one-list-two {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.sect-one-list-two .one-list-item {
-  padding: 30px 20px;
-  border-radius: 20px;
-  background: #fff;
-  width: 292px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.list-two-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-}
-
-.list-item-text {
-  color: #171717;
-  text-align: center;
-  font-family: Futura PT;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 19.2px */
-}
-
-.list-item-text span {
-  text-transform: uppercase;
+.sect-one-list .one-list-item span {
+  font-weight: 500;
 }
 
 /* section-two */
@@ -520,20 +453,63 @@ p {
   margin-bottom: 10px;
 }
 
-.about-author-info {
+.course-author-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  margin-bottom: 20px;
+}
+
+.course-author-list .list-item {
   color: #171717;
-  text-align: center;
+  text-align: left;
   font-family: 'Futura PT';
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 18px */
 
-  max-width: 268px;
+  max-width: 221px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.course-author-wrapper {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d08ee8;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2.5px);
+
+  max-width: 280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author-wrapper-title {
+  color: #171717;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 120%; /* 19.2px */
+
+  margin-bottom: 10px;
+}
+
+.author-wrapper-text {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 15.6px */
+}
 /* section-three */
 
 .section-three {
@@ -563,73 +539,63 @@ p {
   line-height: normal;
   text-transform: uppercase;
 
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .course-wrapper-program {
-  padding: 15px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(2.5px);
+  position: relative;
 
-  max-width: 280px;
+  padding: 25px 30px;
+  border-radius: 20px;
+  border: 1px solid #c681de;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
+
+  max-width: 320px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
-.wrapper-program-title {
-  color: #fff;
-  text-align: center;
-  font-family: 'Futura PT';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: 120%; /* 19.2px */
-
-  max-width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-bottom: 10px;
+.wrapper-program-dots {
+  position: absolute;
+  top: 142px;
+  left: 30px;
 }
 
-.wrapper-program-title span {
-  color: #c681de;
-}
-
-.program-bonus-text {
+.course-wait-you {
   color: #c681de;
   text-align: center;
   font-family: 'Futura PT';
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 16.8px */
+  font-weight: 600;
+  line-height: 120%; /* 18px */
+  text-transform: uppercase;
 
-  margin-bottom: 3px;
+  margin-bottom: 20px;
 }
 
-.wrapper-program-list {
+.course-program-list {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 20px;
+
+  padding-left: 28px;
 }
 
-.wrapper-program-list .list-item {
+.course-program-list .list-item {
   color: #fff;
-  text-align: center;
   font-family: 'Futura PT';
-  font-size: 13px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-}
-
-.wrapper-program-list .list-item span {
   font-weight: 400;
+  line-height: 120%; /* 18px */
+
+  max-width: 227px;
+  width: 100%;
 }
 
 .wrapper-two {
@@ -717,313 +683,169 @@ p {
   color: #c681de;
 }
 
-.what-we-take {
-  position: relative;
-
-  margin-bottom: 30px;
-}
-
-.purple-dots {
-  position: absolute;
-  left: 0;
-  top: 5px;
-}
-
-.sect-five-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-  padding-left: 20px;
-}
-
-.sect-five-list .list-item {
-  color: #171717;
-  font-family: 'Futura PT';
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 18px */
-
-  max-width: 265px;
-}
-
-.your-brand-text {
-  color: #ff2f9f;
-  text-align: center;
-  font-family: 'Futura PT';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110%; /* 17.6px */
-
-  max-width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-
+.program-course-container {
   margin-bottom: 80px;
 }
 
-.sect-five-list-two {
+.program-course-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+}
+
+.program-course-list .list-item {
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--Linear, linear-gradient(90deg, #780f9d 0%, #c471e0 100%));
+  backdrop-filter: blur(2px);
+
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 110%; /* 17.6px */
+}
+
+/* CE VSE ZA CINOY */
+
+.wrapper-all {
+  background: #fff;
+
+  padding: 30px 20px;
+
+  max-width: 320px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+  border: 1px solid var(--Linear, #780f9d);
+  background: #fff;
 
   margin-bottom: 20px;
 }
 
-.sect-five-list-two .list-item-title::after {
-  content: '';
-  display: block;
-
-  height: 1px;
-  width: 200px;
-  background-color: #fff;
-
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sect-five-list-two .list-item {
-  position: relative;
-
-  border-radius: 20px;
-  background: #171717;
-  padding: 40px 24px 40px 24px;
-
-  width: 100%;
-  max-width: 320px;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sect-five-list-two .list-item-title {
-  color: #fff;
-  text-align: center;
-  font-family: Futura PT;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%; /* 28px */
-  text-transform: uppercase;
-
-  max-width: 257px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sect-five-list-two .list-item-title span {
-  color: #c681de;
-}
-
-.list-includ {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-
-  width: 100%;
-  max-width: 320px;
-}
-
-.list-includ-item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-
-  gap: 20px;
-
-  color: #fff;
-  font-family: Futura PT;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110%; /* 19.8px */
-
-  width: 224px;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.includ-color {
-  color: #f2ccff;
-}
-
-.tarif-two-decor {
-  position: absolute;
-  top: -20px;
-  right: 18px;
-}
-
-.price {
-  color: #fff;
+.wrapper-all .wrapper-title {
+  color: #9e51ba;
   text-align: center;
   font-family: 'Futura PT';
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 100%; /* 32px */
+  font-weight: 600;
+  line-height: 64%; /* 46px */
   text-transform: uppercase;
-
-  margin-bottom: 20px;
 }
 
-.price span {
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: line-through;
-  text-decoration-color: #fff;
+.wrapper-all .wrapper-title span {
+  color: #101010;
+  font-size: 24px;
 }
 
-.price::before {
+.wrapper-all .wrapper-title::after {
   content: '';
   display: block;
 
+  width: 100px;
   height: 1px;
-  width: 200px;
-  background-color: #fff;
 
-  margin-top: 40px;
-  margin-bottom: 40px;
+  background: #101010;
 
+  margin: 20px auto;
+}
+
+.wrapper-all .second-wrapper {
+  border-radius: 15px;
+  background: #eed9f5;
+
+  padding: 10px;
+
+  max-width: 280px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+
+  margin-bottom: 10px;
+}
+
+.old-price {
+  color: #9e51ba;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+  font-family: 'Futura PT';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 115%; /* 34.5px */
+
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+.new-price {
+  color: #101010;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+  font-family: 'Futura PT';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 46px */
+}
+
+.price-list .list-item span {
+  font-weight: 700;
+}
+
+.price-description {
+  color: #696969;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.price-description span {
+  color: #101010;
+  font-weight: 700;
 }
 
 .buy-button {
   display: block;
-
   color: #fff;
-  text-align: center;
   font-family: Futura PT;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
 
-  border-radius: 10px;
-  background: var(--Linear, linear-gradient(90deg, #780f9d 0%, #c471e0 100%));
-
-  padding: 14px 50px;
-
   border: none;
 
-  max-width: 271px;
+  padding: 14px;
+  max-width: 298px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 
-  cursor: pointer;
+  border-radius: 30px;
+  background: var(--Linear, linear-gradient(90deg, #780f9d 0%, #c471e0 100%));
 
   animation: pulseScale 2000ms infinite;
-}
 
-/* faq-01 */
-
-.faq {
   margin-bottom: 20px;
-}
-
-.isOpen .content {
-  display: block;
-}
-
-.question {
-  border-radius: 20px;
-  background: var(--Linear, linear-gradient(90deg, #780f9d 0%, #c471e0 100%));
-  backdrop-filter: blur(2px);
-
-  padding: 30px 20px;
-
-  max-width: 320px;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-bottom: 10px;
-
-  backdrop-filter: blur(2px);
-}
-
-.last-question {
-  margin-bottom: 0;
-}
-
-.content {
-  display: none;
-}
-
-.content ol {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-left: 30px;
-}
-
-.content ol li {
-  color: #fff;
-  font-family: 'Futura PT';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110%; /* 17.6px */
-
-  max-width: 225px;
-}
-
-.question-name {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.question-name > p {
-  color: #fff;
-  font-family: Futura PT;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%; /* 19.2px */
-  text-transform: uppercase;
-}
-
-.question-plus {
-  transform: rotate(0);
-
-  transition: transform 250ms linear;
-}
-.question.open .question-plus {
-  transform: rotate(45deg);
-}
-
-.plus-other-homework {
-  color: #fff;
-  text-align: center;
-  font-family: 'Futura PT';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 19.2px */
-
-  max-width: 295px;
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-bottom: 80px;
 }
 
 /* section-six */
 
 .section-six {
   padding-top: 60px;
-  padding-bottom: 55px;
+  padding-bottom: 100px;
   background: #171717;
 }
 
@@ -1138,21 +960,6 @@ p {
   padding: 25px;
 
   width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.faq-two::after {
-  content: '';
-  display: block;
-
-  height: 1px;
-  width: 140px;
-  background-color: #fff;
-
-  margin-top: 60px;
-  margin-bottom: 60px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -1340,7 +1147,7 @@ p {
 
 .countdown-time-two {
   display: block;
-  color: #ff2f9f;
+  color: #171717;
   text-align: center;
   font-family: 'Futura PT';
   font-size: 36px;
@@ -1358,7 +1165,7 @@ p {
 
   height: 30px;
   width: 1px;
-  background: #ff2f9f;
+  background: #171717;
 
   margin-top: 40px;
   margin-bottom: 40px;
@@ -1402,6 +1209,20 @@ p {
   padding: 20px;
 }
 
+.sect-five-title::before {
+  content: '';
+  display: block;
+
+  width: 140px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #171717;
+
+  margin: 40px auto;
+}
+
 .bonus-wrapper .bonus-title {
   color: #c681de;
   text-align: center;
@@ -1428,7 +1249,7 @@ p {
 }
 
 .bonus-wrapper .bonuses-list .list-item {
-  color: #ff2f9f;
+  color: #171717;
   text-align: center;
   font-family: 'Futura PT';
   font-size: 14px;
@@ -1467,6 +1288,37 @@ p {
   margin-bottom: 20px;
 }
 
+.result-texts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result-texts-list .list-item {
+  color: #171717;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 18px */
+
+  max-width: 265px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result-texts-list .list-item:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.result-texts-list .list-item:nth-child(3) {
+  color: #ff2f9f;
+  font-size: 16px;
+  line-height: 110%; /* 17.6px */
+}
+
 /* swiper */
 
 .swiper {
@@ -1474,7 +1326,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 
-  height: 543px;
+  height: 320px;
 }
 
 .review-image {
@@ -1498,27 +1350,6 @@ p {
 }
 
 /* solution */
-
-.solution-container {
-  position: relative;
-
-  padding: 25px;
-}
-
-.solution-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 20px;
-  border: 1px solid transparent;
-  background: linear-gradient(45deg, #780f9d, #c471e0) border-box;
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
 
 .solution-text {
   color: #fff;
