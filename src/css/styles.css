@@ -213,6 +213,8 @@ p {
   animation: pulseScale 2000ms infinite;
 
   margin-bottom: 20px;
+
+  cursor: pointer;
 }
 
 /* timer */
@@ -835,6 +837,8 @@ p {
   animation: pulseScale 2000ms infinite;
 
   margin-bottom: 20px;
+
+  cursor: pointer;
 }
 
 /* section-six */
@@ -1456,6 +1460,8 @@ body.show-modal .modal {
 
   transform: scale(1.1);
   transition: transform 200ms ease-in-out;
+
+  overflow-y: scroll;
 }
 
 .modal-title {
@@ -1476,4 +1482,6 @@ body.show-modal .modal {
   right: 30px;
   background: none;
   border: none;
+
+  cursor: pointer;
 }
