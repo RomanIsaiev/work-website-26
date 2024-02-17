@@ -298,9 +298,7 @@
             </p>
           </div>
           <div class="buy-button-container">
-            <button class="buy-button" data-action="open-modal">
-              приєднатись
-            </button>
+            <button class="buy-button" data-modal-open-one>приєднатись</button>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -674,18 +672,14 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop js-backdrop">
+    <div class="backdrop is-hidden" data-modal1>
       <div class="modal">
-        <button
-          class="modal-close-button"
-          type="button"
-          data-action="close-modal"
-        >
+        <button type="button" class="close-button" data-modal-close1>
           <img
             src="./src/images/close-modal-icon.svg"
-            alt="close"
             width="30"
             height="30"
+            alt="close"
           />
         </button>
         <div id="kwiga-widget-1708165235"></div>
