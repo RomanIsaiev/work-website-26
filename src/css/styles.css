@@ -215,6 +215,7 @@ p {
   margin-bottom: 20px;
 
   cursor: pointer;
+  border: none;
 }
 
 /* timer */
