@@ -48,7 +48,11 @@
             <div class="start-date-container">
               <div class="start-date-flex">
                 <p class="start-text">Експрес-курс</p>
-                <p class="start-date">Старт 08.03</p>
+                <p class="start-date">
+                  Старт <span id="dateElement"></span>.<span
+                    id="monthElement"
+                  ></span>
+                </p>
               </div>
             </div>
             <h1 class="header-title">ПʼЯТЬ КРОКІВ</h1>
@@ -60,13 +64,7 @@
               >
             </p>
             <div class="buy-button-container">
-              <button
-                type="button"
-                class="header-link-button"
-                data-modal-open-one
-              >
-                ПРИЄДНАТИСЬ
-              </button>
+              <a class="header-link-button link" href="#form"> ПРИЄДНАТИСЬ </a>
               <div class="header-sale-mark">
                 <picture
                   ><source
@@ -329,12 +327,17 @@
               <p class="old-price">3200грн</p>
               <p class="new-price">379грн</p>
             </div>
-            <p class="price-description">
+            <p class="price-description" id="form">
               Встигніть придбати зі <span>знижкою 85%</span>
             </p>
           </div>
+          <p class="form-title">
+            Заповніть форму та отримайте доступ до курсу "Як стати успішним
+            колористом" за спеціальною ціною прямо зараз та заберіть свої 🎁🎁
+          </p>
           <div class="buy-button-container">
-            <button class="buy-button" data-modal-open-one>приєднатись</button>
+            <!-- <button class="buy-button" data-modal-open-one>приєднатись</button> -->
+            <div id="kwiga-widget-1708165235"></div>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -355,6 +358,10 @@
               <p class="sale-number">-85%</p>
             </div>
           </div>
+          <p class="form-title">
+            P.S. Ви нічим не ризикуєте! Гарантія повернення коштів - 14 днів,
+            якщо курс вам не підійде
+          </p>
           <p class="timer-text">Встигніть забрати знижку і всі бонуси</p>
           <div id="countdown-two" class="countdown-two">
             <div class="countdown-number-two">
@@ -708,7 +715,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal1>
+    <!-- <div class="backdrop is-hidden" data-modal1>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close1>
           <img
@@ -720,13 +727,14 @@
         </button>
         <div id="kwiga-widget-1708165235"></div>
       </div>
-    </div>
+    </div> -->
     <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./src/js/faq.js" type="module"></script>
     <script src="./src/js/timer.js" type="module"></script>
     <script src="./src/js/scroll.js" type="module"></script>
     <script type="module" src="./src/js/swiper.js"></script>
-    <script src="./src/js/js-modal.js" type="module"></script>
+    <script type="module" src="./src/js/changeDate.js"></script>
+    <!-- <script src="./src/js/js-modal.js" type="module"></script> -->
     <script
       type="module"
       src="https://kwiga.com/build/js/kwiga-widget.js?t=1708165235&uuid=aa74b992-7e54-4006-bbae-7ac0f7f7d835&producer=https://kwiga.com/"

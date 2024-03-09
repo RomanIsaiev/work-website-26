@@ -722,7 +722,7 @@ p {
   border: 1px solid var(--Linear, #780f9d);
   background: #fff;
 
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .wrapper-all .wrapper-title {
@@ -840,6 +840,19 @@ p {
   margin-bottom: 20px;
 
   cursor: pointer;
+}
+
+.form-title {
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
 }
 
 /* section-six */
