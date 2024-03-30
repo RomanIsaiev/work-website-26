@@ -173,7 +173,7 @@ p {
 
   margin-bottom: 20px;
 
-  max-width: 309px;
+  max-width: 230px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -374,6 +374,10 @@ p {
 
 .sect-one-list .one-list-item span {
   font-weight: 500;
+}
+
+.sect-one-list .one-list-item .list-item-accent {
+  color: #c471e0;
 }
 
 .sect-one-list .one-list-item:last-child {
